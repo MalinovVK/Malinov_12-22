@@ -1,0 +1,120 @@
+{
+  "buses": [
+    {
+      "name": "Ш1-220",
+      "voltage": 220
+    },
+    {
+      "name": "Ш2-220",
+      "voltage": 220
+    },
+    {
+      "name": "ОШ-220",
+      "voltage": 220
+    },
+    {
+      "name": "Ш1-110",
+      "voltage": 110
+    },
+    {
+      "name": "Ш2-110",
+      "voltage": 110
+    },
+    {
+      "name": "ОШ-110",
+      "voltage": 110
+    },
+    {
+      "name": "СШ-10-1",
+      "voltage": 10
+    },
+    {
+      "name": "СШ-10-2",
+      "voltage": 10
+    }
+  ],
+  "breakers": [
+    {
+      "name": "Q1-220",
+      "voltage": 220,
+      "bus": "Ш1-220"
+    },
+    {
+      "name": "Q2-220",
+      "voltage": 220,
+      "bus": "Ш2-220"
+    },
+    {
+      "name": "QO-220",
+      "voltage": 220,
+      "bus": "ОШ-220"
+    },
+    {
+      "name": "Q1-110",
+      "voltage": 110,
+      "bus": "Ш1-110"
+    },
+    {
+      "name": "Q2-110",
+      "voltage": 110,
+      "bus": "Ш2-110"
+    },
+    {
+      "name": "QO-110",
+      "voltage": 110,
+      "bus": "ОШ-110"
+    },
+    {
+      "name": "Q1-10",
+      "voltage": 10,
+      "bus": "СШ-10-1"
+    },
+    {
+      "name": "Q2-10",
+      "voltage": 10,
+      "bus": "СШ-10-2"
+    }
+  ],
+  "transformers": [
+    {
+      "name": "Т1",
+      "power": 200
+    },
+    {
+      "name": "Т2",
+      "power": 200
+    }
+  ],
+  "lines": [
+    {
+      "name": "Л1-220",
+      "voltage": 220,
+      "length": 50
+    },
+    {
+      "name": "Л2-220",
+      "voltage": 220,
+      "length": 75
+    },
+    {
+      "name": "Л1-110",
+      "voltage": 110,
+      "length": 30
+    },
+    {
+      "name": "Л2-110",
+      "voltage": 110,
+      "length": 45
+    },
+    {
+      "name": "Л1-10",
+      "voltage": 10,
+      "length": 5
+    },
+    {
+      "name": "Л2-10",
+      "voltage": 10,
+      "length": 8
+    }
+  ]
+}

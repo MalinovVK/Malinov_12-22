@@ -1,0 +1,184 @@
+{
+  "protections": [
+    {
+      "name": "ДЗЛ-220-1",
+      "type": "line",
+      "main": true,
+      "time_delay": 0.2,
+      "current_setting": 8.0,
+      "failure_rate": 0.03,
+      "voltage_level": "hv",
+      "protects": "Л1-220"
+    },
+    {
+      "name": "ДЗЛ-220-2",
+      "type": "line",
+      "main": true,
+      "time_delay": 0.2,
+      "current_setting": 8.0,
+      "failure_rate": 0.03,
+      "voltage_level": "hv",
+      "protects": "Л2-220"
+    },
+    {
+      "name": "ДЗЛ-110-1",
+      "type": "line",
+      "main": true,
+      "time_delay": 0.2,
+      "current_setting": 10.0,
+      "failure_rate": 0.03,
+      "voltage_level": "mv",
+      "protects": "Л1-110"
+    },
+    {
+      "name": "ДЗЛ-110-2",
+      "type": "line",
+      "main": true,
+      "time_delay": 0.2,
+      "current_setting": 10.0,
+      "failure_rate": 0.03,
+      "voltage_level": "mv",
+      "protects": "Л2-110"
+    },
+    {
+      "name": "ДЗЛ-10-1",
+      "type": "overcurrent",
+      "main": true,
+      "time_delay": 0.2,
+      "current_setting": 45.0,
+      "failure_rate": 0.03,
+      "voltage_level": "lv",
+      "protects": "Л1-10"
+    },
+    {
+      "name": "ДЗЛ-10-2",
+      "type": "overcurrent",
+      "main": true,
+      "time_delay": 0.2,
+      "current_setting": 36.4,
+      "failure_rate": 0.03,
+      "voltage_level": "lv",
+      "protects": "Л2-10"
+    },
+    {
+      "name": "ДЗТ-Т1",
+      "type": "differential",
+      "main": true,
+      "time_delay": 0.1,
+      "current_setting": 0.5,
+      "failure_rate": 0.05,
+      "voltage_level": "all",
+      "protects": "Т1"
+    },
+    {
+      "name": "ДЗТ-Т2",
+      "type": "differential",
+      "main": true,
+      "time_delay": 0.1,
+      "current_setting": 0.5,
+      "failure_rate": 0.05,
+      "voltage_level": "all",
+      "protects": "Т2"
+    },
+    {
+      "name": "ДЗШ-220-1",
+      "type": "overcurrent",
+      "main": true,
+      "time_delay": 0.3,
+      "current_setting": 10.0,
+      "failure_rate": 0.04,
+      "voltage_level": "hv",
+      "protects": "Ш1-220"
+    },
+    {
+      "name": "ДЗШ-220-2",
+      "type": "overcurrent",
+      "main": true,
+      "time_delay": 0.3,
+      "current_setting": 10.0,
+      "failure_rate": 0.04,
+      "voltage_level": "hv",
+      "protects": "Ш2-220"
+    },
+    {
+      "name": "МТЗ-220-1",
+      "type": "overcurrent",
+      "main": false,
+      "time_delay": 0.8,
+      "current_setting": 4.0,
+      "failure_rate": 0.02,
+      "voltage_level": "hv",
+      "protects": "Л1-220"
+    },
+    {
+      "name": "МТЗ-220-2",
+      "type": "overcurrent",
+      "main": false,
+      "time_delay": 0.8,
+      "current_setting": 4.0,
+      "failure_rate": 0.02,
+      "voltage_level": "hv",
+      "protects": "Л2-220"
+    },
+    {
+      "name": "МТЗ-110-1",
+      "type": "overcurrent",
+      "main": false,
+      "time_delay": 0.8,
+      "current_setting": 5.0,
+      "failure_rate": 0.02,
+      "voltage_level": "mv",
+      "protects": "Л1-110"
+    },
+    {
+      "name": "МТЗ-110-2",
+      "type": "overcurrent",
+      "main": false,
+      "time_delay": 0.8,
+      "current_setting": 5.0,
+      "failure_rate": 0.02,
+      "voltage_level": "mv",
+      "protects": "Л2-110"
+    },
+    {
+      "name": "МТЗ-10-1",
+      "type": "overcurrent",
+      "main": false,
+      "time_delay": 0.8,
+      "current_setting": 15.0,
+      "failure_rate": 0.02,
+      "voltage_level": "lv",
+      "protects": "Л1-10"
+    },
+    {
+      "name": "МТЗ-10-2",
+      "type": "overcurrent",
+      "main": false,
+      "time_delay": 0.8,
+      "current_setting": 15.0,
+      "failure_rate": 0.02,
+      "voltage_level": "lv",
+      "protects": "Л2-10"
+    },
+    {
+      "name": "МТЗ-Т1",
+      "type": "overcurrent",
+      "main": false,
+      "time_delay": 0.6,
+      "current_setting": 7.0,
+      "failure_rate": 0.02,
+      "voltage_level": "hv",
+      "protects": "Т1"
+    },
+    {
+      "name": "МТЗ-Т2",
+      "type": "overcurrent",
+      "main": false,
+      "time_delay": 0.6,
+      "current_setting": 7.0,
+      "failure_rate": 0.02,
+      "voltage_level": "hv",
+      "protects": "Т2"
+    }
+  ]
+}
